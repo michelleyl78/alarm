@@ -161,7 +161,8 @@ void myTone(int pin, int frequency, int duration) {
 </code></pre>
 
 <p> Here's the clock in action! </p>
-<iframe style="width:90%; height:400px" src="alarm_initial.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video style="width:90%; height:400px" controls>
+ <source src="alarm_initial.mp4" type="video/mp4"></video>>
 <p> Later on when I received my LCD display in the mail, I figured out how to use it to display the time. Since I already had a variable that gives the actual time, I just had to call on that variable in led.print and set the cursor to the middle of the screen to center the time. I put the calculations for finding the actual time as well as the LCD displaying the time in a while loop that would function as long as the board was connected to Wifi since the time on the display needs to update when the time gotten from the NTP server changes. Here is the code for that: </p>
 <pre><code class="language-arduino">
 while (WiFi.status() == WL_CONNECTED) {
