@@ -2,23 +2,27 @@ body {
 	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
     font-size: 20px;
     line-height: 1.8;
-    color: black
+    background-color: #cac7d6;
   }
 
-p {font-size: 16px;}
-.margin {margin-bottom: 15px;}
+p {font-size: 16px;
+
+}
+.margin {margin-bottom: 15px;
+}
+
 
 .container-fluid {
   padding: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
   max-width: calc(1100px - (5px));
+  background-color: white;
 }
 .header {
   overflow: hidden;
   background-color:#C0C0C0;
-  padding: 20px 10px;
   vertical-align: center;
 } 
 #index div{
@@ -87,7 +91,7 @@ p {font-size: 16px;}
 
 .footer{
   overflow: hidden;
-  background-color:#C0C0C0;
+  background-color:#6A687A;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
